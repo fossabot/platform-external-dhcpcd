@@ -89,7 +89,7 @@
 
 /* These are for IPV4LL, RFC 3927. */
 #define PROBE_WAIT		 1
-#define PROBE_NUM		 3
+#define PROBE_NUM		 0 /* ARP Probes are not mandatory */
 #define PROBE_MIN		 1
 #define PROBE_MAX		 2
 #define ANNOUNCE_WAIT		 2
