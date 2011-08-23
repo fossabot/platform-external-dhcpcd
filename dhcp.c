@@ -78,7 +78,7 @@ static const struct dhcp_opt const dhcp_opts[] = {
 	{ 2,	UINT32,		"time_offset" },
 	{ 4,	IPV4 | ARRAY,	"time_servers" },
 	{ 5,	IPV4 | ARRAY,	"ien116_name_servers" },
-	{ 6,	IPV4 | ARRAY,	"domain_name_servers" },
+	{ 6,	IPV4 | ARRAY | REQUEST,	"domain_name_servers" },
 	{ 7,	IPV4 | ARRAY,	"log_servers" },
 	{ 8,	IPV4 | ARRAY,	"cookie_servers" },
 	{ 9, 	IPV4 | ARRAY,	"lpr_servers" },
