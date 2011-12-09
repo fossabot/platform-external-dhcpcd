@@ -30,12 +30,12 @@
 
 /* These are for IPV4LL, RFC 3927.
  * We put them here as we use the timings for all ARP foo. */
-#define PROBE_WAIT		 1
-#define PROBE_NUM		 3
+#define PROBE_WAIT		 0
+#define PROBE_NUM		 0
 #define PROBE_MIN		 1
 #define PROBE_MAX		 2
-#define ANNOUNCE_WAIT		 2
-#define ANNOUNCE_NUM		 2
+#define ANNOUNCE_WAIT		 0
+#define ANNOUNCE_NUM		 0
 #define ANNOUNCE_INTERVAL	 2
 #define MAX_CONFLICTS		10
 #define RATE_LIMIT_INTERVAL	60
