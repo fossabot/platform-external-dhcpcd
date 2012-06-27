@@ -780,7 +780,7 @@ read_config(const char *file,
 	/* Seed our default options */
 	ifo = xzalloc(sizeof(*ifo));
 	ifo->options |= DHCPCD_GATEWAY | DHCPCD_DAEMONISE;
-	ifo->options |= DHCPCD_ARP | DHCPCD_LINK;
+	ifo->options |= DHCPCD_ARP | DHCPCD_IPV4LL | DHCPCD_LINK;
 	ifo->timeout = DEFAULT_TIMEOUT;
 	ifo->reboot = DEFAULT_REBOOT;
 	ifo->metric = -1;
