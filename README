@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBeckNT%2Fplatform-external-dhcpcd.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FBeckNT%2Fplatform-external-dhcpcd?ref=badge_shield)
+
 dhcpcd - DHCP client daemon
 Copyright (c) 2006-2012 Roy Marples <roy@marples.name>
 
@@ -78,3 +80,7 @@ ChangeLog
 We no longer supply a ChangeLog.
 However, you're more than welcome to read the commit log at
 http://roy.marples.name/projects/dhcpcd/log/
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBeckNT%2Fplatform-external-dhcpcd.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBeckNT%2Fplatform-external-dhcpcd?ref=badge_large)
